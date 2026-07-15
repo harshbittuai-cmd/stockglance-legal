@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stockglance Terms of Use</title>
+<style>
+  :root {
+    --bg: #F7F7F2;
+    --surface: #FFFFFF;
+    --surface-subtle: #EEEEEA;
+    --accent: #4CAF50;
+    --accent-light: #E8F5E9;
+    --forest: #0E4B36;
+    --text-primary: #1F2937;
+    --text-secondary: #4B5563;
+    --text-tertiary: #6B7280;
+    --border: #E2E1DA;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11160F;
+      --surface: #1A2118;
+      --surface-subtle: #212A1E;
+      --accent: #5FBF63;
+      --accent-light: #1E3423;
+      --forest: #7FD79A;
+      --text-primary: #EAEDE8;
+      --text-secondary: #B7BEB2;
+      --text-tertiary: #8B9385;
+      --border: #2C362A;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 20px 96px;
+  }
+
+  .page {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  header.masthead {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    padding: 48px 0 8px;
+  }
+  .wordmark {
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+  .wordmark .stock { color: var(--forest); }
+  .wordmark .pal { color: var(--accent); }
+
+  .doc-title {
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    line-height: 1.15;
+    font-weight: 600;
+    margin: 4px 0 12px;
+    text-wrap: balance;
+    color: var(--text-primary);
+  }
+
+  .meta {
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: 40px;
+  }
+
+  .intro {
+    font-size: 18px;
+    color: var(--text-secondary);
+    border-left: 3px solid var(--accent);
+    padding-left: 20px;
+    margin: 0 0 44px;
+  }
+
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 48px;
+  }
+  nav.toc .toc-label {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin: 0 0 10px;
+  }
+  nav.toc ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    gap: 8px 24px;
+  }
+  nav.toc li { break-inside: avoid; margin-bottom: 8px; }
+  nav.toc a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  nav.toc a:hover, nav.toc a:focus-visible { color: var(--accent); text-decoration: underline; }
+
+  section {
+    padding: 36px 0;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type { border-top: none; padding-top: 0; }
+
+  h2 {
+    font-family: ui-serif, Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 16px;
+    color: var(--text-primary);
+    scroll-margin-top: 24px;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 24px 0 6px;
+    color: var(--text-primary);
+  }
+
+  p { margin: 0 0 14px; color: var(--text-secondary); }
+  p:last-child { margin-bottom: 0; }
+
+  ul { margin: 0 0 14px; padding-left: 22px; color: var(--text-secondary); }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+
+  strong { color: var(--text-primary); }
+
+  .callout {
+    background: var(--accent-light);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 8px 0 14px;
+  }
+  .callout p { color: var(--text-primary); margin: 0; }
+
+  a.inline-link { color: var(--accent); }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-tertiary);
+  }
+
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 480px) {
+    .doc-title { font-size: 32px; }
+    nav.toc ol { columns: 1; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="wordmark"><span class="stock">Stock</span><span class="pal">Glance</span></span>
+  </header>
+
+  <h1 class="doc-title">Terms of Use</h1>
+  <p class="meta">Effective July 14, 2026</p>
+
+  <p class="intro">
+    These terms govern your use of Stockglance. By creating an account or using the app,
+    you agree to them. If you don't agree, please don't use Stockglance.
+  </p>
+
+  <nav class="toc" aria-label="Table of contents">
+    <p class="toc-label">On this page</p>
+    <ol>
+      <li><a href="#service">1. The service</a></li>
+      <li><a href="#eligibility">2. Eligibility &amp; your account</a></li>
+      <li><a href="#acceptable-use">3. Acceptable use</a></li>
+      <li><a href="#content">4. Your content</a></li>
+      <li><a href="#disclaimer">5. Disclaimer &amp; limitation of liability</a></li>
+      <li><a href="#termination">6. Termination</a></li>
+      <li><a href="#changes">7. Changes to these terms</a></li>
+      <li><a href="#contact">8. Contact us</a></li>
+    </ol>
+  </nav>
+
+  <section id="service">
+    <h2>1. The service</h2>
+    <p>Stockglance is a personal stock watchlist app for tracking prices, setting price alerts, keeping investment notes, and reading AI-generated news briefings. It is provided for informational purposes only.</p>
+    <div class="callout">
+      <p><strong>Stockglance is not a brokerage, exchange, or registered investment adviser.</strong> It does not execute trades, hold funds or securities, or manage money on your behalf.</p>
+    </div>
+  </section>
+
+  <section id="eligibility">
+    <h2>2. Eligibility &amp; your account</h2>
+    <p>You must be at least 13 years old to use Stockglance. You're responsible for keeping your account credentials secure and for all activity that happens under your account. If you believe your account has been compromised, contact us right away.</p>
+  </section>
+
+  <section id="acceptable-use">
+    <h2>3. Acceptable use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the app for any unlawful purpose or in violation of these terms.</li>
+      <li>Attempt to interfere with, disrupt, or gain unauthorized access to Stockglance's systems, servers, or data.</li>
+      <li>Reverse-engineer, scrape, or resell access to the app or the data it surfaces.</li>
+      <li>Use the app to harass, abuse, or harm another person.</li>
+    </ul>
+    <p>We may suspend or terminate accounts that violate these terms.</p>
+  </section>
+
+  <section id="content">
+    <h2>4. Your content</h2>
+    <p>Your watchlist, price alerts, investment notes, and industry trackers belong to you. We store them only to provide the app's functionality, and we don't claim ownership over anything you write. You can permanently delete your content and account at any time via <strong>Settings → Delete Account</strong>.</p>
+  </section>
+
+  <section id="disclaimer">
+    <h2>5. Disclaimer &amp; limitation of liability</h2>
+    <p>Stockglance is provided "as is" and "as available," without warranties of any kind, express or implied. Stock prices, charts, alerts, and AI-generated news briefings are provided for informational purposes only, may be delayed or inaccurate, and should not be relied upon as the basis for any investment decision. Nothing in the app constitutes financial, investment, tax, or legal advice.</p>
+    <p>To the fullest extent permitted by law, the developer of Stockglance shall not be liable for any direct, indirect, incidental, consequential, or special damages arising out of or in connection with your use of, or inability to use, the app — including but not limited to investment losses, missed or delayed alerts, inaccurate data, or notification failures — even if advised of the possibility of such damages.</p>
+    <p>You use Stockglance, and any information it provides, entirely at your own risk. For details on what data we collect and how it's handled, see our <a class="inline-link" href="./privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section id="termination">
+    <h2>6. Termination</h2>
+    <p>You may stop using Stockglance and delete your account at any time. We may suspend or terminate access to the app for anyone who violates these terms or misuses the service.</p>
+  </section>
+
+  <section id="changes">
+    <h2>7. Changes to these terms</h2>
+    <p>If these terms change, we'll update the effective date at the top of this page. Continuing to use Stockglance after a change means you accept the updated terms.</p>
+  </section>
+
+  <section id="contact">
+    <h2>8. Contact us</h2>
+    <p>Questions about these terms? Email <a class="inline-link" href="mailto:harsh.bittu.ai@gmail.com">harsh.bittu.ai@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    Stockglance — informational only, not a brokerage. Price data may be delayed.
+  </footer>
+</div>
+</body>
+</html>
